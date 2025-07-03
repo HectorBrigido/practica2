@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+body,
+input,
+button, h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  background-color: #1e39d1;
+  color: rgb(194, 81, 81);
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+header, h1 {
+  width: auto;
+  margin: 0;
+  margin-left: 10px;
+  font-weight: 600;
+  color: rgba(208, 207, 235, 0.8588235294);
+  font-size: 40px;
+}
+
+#logo-peliculas {
+  width: 180px;
+  height: auto;
+}
+
+.search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  background-color: #101099;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  color: white;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+  padding: 1em;
+}
+
+.item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1em;
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */

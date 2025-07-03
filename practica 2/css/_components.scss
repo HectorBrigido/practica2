@@ -1,0 +1,21 @@
+header, h1 {
+    width: auto;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #eaeaf4db;
+    font-size: 40px;
+    filter: drop-shadow(1px 1px 20px black);
+    border-radius: auto;
+}
+
+#logo-peliculas {
+    width: 180px;
+    height: auto;
+    filter: drop-shadow(1px 1px 20px rgb(135, 210, 37));
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
